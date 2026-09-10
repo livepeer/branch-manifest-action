@@ -57,5 +57,5 @@ outputs:
     description: Project name, to be used as gcp bucket root directory
 
 runs:
-  using: node16
+  using: node24
   main: 'dist/index.js'
